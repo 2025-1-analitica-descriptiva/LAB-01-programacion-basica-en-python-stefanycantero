@@ -27,7 +27,7 @@ def pregunta_04():
 
     """
     records = {}
-    with open('files\input\data.csv', 'r') as file:
+    with open('./files/input/data.csv', 'r') as file:
         for line in file:
             data = line.split()
             month = data[2].split('-')[1]

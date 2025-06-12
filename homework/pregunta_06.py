@@ -27,7 +27,7 @@ def pregunta_06():
 
     """
     letters_count = {}    
-    with open('files\input\data.csv', 'r') as file:
+    with open('./files/input/data.csv', 'r') as file:
         for line in file:
             data = line.split()
             dictionary = data[4].split(",")

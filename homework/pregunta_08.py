@@ -28,7 +28,7 @@ def pregunta_08():
 
     """
     records = {}
-    with open('files/input/data.csv', 'r') as file:
+    with open('./files/input/data.csv', 'r') as file:
         for line in file:
             data = line.split()
             key = int(data[1])

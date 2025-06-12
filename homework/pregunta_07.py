@@ -26,7 +26,7 @@ def pregunta_07():
 
     """
     values_dict = {}
-    with open('files/input/data.csv', 'r') as file:
+    with open('./files/input/data.csv', 'r') as file:
         for line in file:
             data = line.split()
             letter = data[0]
