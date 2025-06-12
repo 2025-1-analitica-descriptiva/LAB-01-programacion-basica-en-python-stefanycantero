@@ -37,5 +37,3 @@ def pregunta_04():
                 records[month] = 1
         records = sorted(records.items(), key=lambda x: x[0])
     return records
-
-print(pregunta_04())    
